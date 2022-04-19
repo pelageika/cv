@@ -17,4 +17,4 @@ I am responsible, proactive, stress-resistant, sociable, honest. My strengths ar
 - Word, Excel, Access
 - Adobe Photoshop, Blender, Inkscape
 
-  ### **Code example:**      
+### **Code example:**      
