@@ -17,4 +17,54 @@ I am responsible, proactive, stress-resistant, sociable, honest. My strengths ar
 - Word, Excel, Access
 - Adobe Photoshop, Blender, Inkscape
 
-### **Code example:**      
+### **Code example:**     
+
+#include<iostream>
+
+
+class circle {
+protected:
+	double R;
+public:
+	circle(double R) {
+		this->R = R;
+	}
+
+	double get_R() {
+		return R;
+	}
+
+	double Area() {
+		return 3.14*R*R;
+	}
+};
+
+class ring: public circle {
+	double r;
+public:
+	ring(double R, double r) : circle(R) {
+		this->r = r;
+	}
+
+	double Area() {
+		return 3.14*(R*R - r*r);
+	}
+};
+
+using namespace std;
+
+
+int main() {
+	double x, y;
+	cin >> x >> y;
+	circle c(x);
+	cout << c.Area();
+	cout << endl;
+	ring r(x, y);
+	cout << r.Area();
+	system("pause");
+	return 0;
+}
+
+
+
