@@ -23,11 +23,14 @@ I am responsible, proactive, stress-resistant, sociable, honest. My strengths ar
 
 
 class circle {
+	
 protected:
 	double R;
+	
 public:
 	circle(double R) {
 		this->R = R;
+	
 	}
 
 	double get_R() {
