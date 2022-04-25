@@ -19,6 +19,7 @@ I am responsible, proactive, stress-resistant, sociable, honest. My strengths ar
 
 ### **Code example:**     
 
+```
 #include<iostream>
 
 
@@ -68,7 +69,7 @@ int main() {
 	system("pause");
 	return 0;
 }
-
+```
 ### **Project:**
 	
 	cv
