@@ -70,7 +70,7 @@ int main() {
 	return 0;
 }
 ```
-### **Project:**
+### **English level: **
 	
-	cv
+	B1
 
