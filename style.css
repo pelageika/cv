@@ -3,7 +3,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    
+    color: #1a1147;
     margin: 0;
     padding: 0;
 }
@@ -69,6 +69,16 @@ link {
     font-weight: 300;
    text-decoration: none;
   }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 50px;
+}
   .section-profile {
     border-bottom: 15px solid #afd0f0;
     display: flex;
@@ -79,13 +89,14 @@ link {
 * {
   box-sizing: border-box;
 }
+
   .section-profile-logo {
     border-radius: 50%;
-    box-shadow: 0 1px 4px #29234d(0, 0, 0, 0.719);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
     height: 550px;
     object-fit: cover;
     transition: .3s;
-    width: 530px;
+    width: 550px;
   }
   .section-profile-title {
     align-content: center;
@@ -97,6 +108,7 @@ link {
     height: 565px;
     width: 500px;
 }
+
 
 h1{
   display: block;
@@ -114,6 +126,9 @@ h1{
   position: relative;
   word-spacing: 3px;
 }
+* {
+  box-sizing: border-box;
+}
 :-webkit-any(article, aside, nav, section) h1 {
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -124,4 +139,76 @@ h1{
   letter-spacing: 2px;
   line-height: 50px;
   margin-top: 20px;
+}
+.section-title {
+  color: #210242;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: block;
+  
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.section-item {
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+  position: relative;
+}
+.section-item:before {
+  border: 1px solid #5d5a6b;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 10px;
+}
+.section-item span {
+  color: #5d5a6b;
+}
+.section-item a {
+  color: #5d5a6b;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+.section {
+  
+  padding: 10px 10px 35px;
+  
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
