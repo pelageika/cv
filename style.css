@@ -43,10 +43,10 @@ link {
     transition: .3s;
   }
   .section-item a {
-    color: #7a857b;
+    color: #0bad19;
     text-decoration: none;  
     transition: color 0.5s;
   }
   .section-item a:hover {
-    color: #67509c;
+    color: #8b0062;
   }
