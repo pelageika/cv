@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 body{
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 400;
     line-height: 1.5;
     color: #1a1147;
@@ -75,6 +75,7 @@ link {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .container {
   margin: 0 auto;
   max-width: 1440px;
@@ -213,6 +214,51 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-=======
+.section-item a {
+  color: #5d9cc0;
+  text-decoration: none;
+  transition: color .5s;
+}
 
->>>>>>> 738bbc7755c910c1cb903bdbd6bc9b50b70cc1c7
+.section {
+  border-bottom: 1px solid #3e68c2;
+  padding: 10px 10px 35px;
+  width: calc(100% - 20px);
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pre {
+  margin: 0;
+  padding: 0;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+code {
+  font-family: monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+.section-english {
+  border-bottom: 0;
+}
+.footer {
+  background-color: #81b4e3;
+  padding: 20px;
+}
+footer {
+  display: block;
+}
+
+

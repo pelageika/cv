@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +56,7 @@
                 <img src="./assets/img/ffoto.jpg" alt="me" class="section-profile-logo">
             <div class="section-profile-title">
                 <h1 class="section-title main-title">Pelageya Chursina</h1>
-                <h3 class="section-subtitle">Student</h3>
+                <h3 class="section-subtitle">Vitebsk State University</h3>
             </div>
             </section>
             <section class="section" id="contacts">
@@ -71,8 +71,13 @@
                         pelageika81@gmail.com</a>
                     </li>
                     <li class="section-item contacts-item">Github:
-                        <span>@CHPelageya</span>
+                        <a href="https://github.com/pelageika" title="github">pelageya</a>
+                       
                     </li>
+                    <li class="section-item contacts-item">Telegram:
+                    <a href="https://t.me/CHPelageya" title="Telegram">@CHPelageya</a>
+
+                </li>
                 </ul>
             </section>
             <section class="section" id="summary">
@@ -81,14 +86,52 @@
                  My strengths are good managerial and leadership skills, customer focus, systems thinking, positive attitude. 
                  I like to study, I always strive to learn something new.</p>
             </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">HTML, C++</li>
+                    <li class="section-item contacts-item">Word, Excel, Access</li>
+                    <li class="section-item contacts-item">Adobe Photoshop, Blender, Inkscape </li>
+                    
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+                        int localmax(int** localMax, int num) {
+                            int max;
+                            for (int row = 0; row < num; row++) {
+                                for (int col = 0; col < num; col++) {
+                                    if ((localMax[row][col] > localMax[row - 1][col]) &&
+                                     (localMax[row][col] > localMax[row + 1][col]) &&
+                                      (localMax[row][col] > localMax[row][col - 1]) &&
+                                       (localMax[row][col] > localMax[row][col + 1])) {
+                                        max = localMax[row][col];
+                                    }
+                                }
+                            }
+                            return max;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1, Intermediate</p>
+            </section>
+            
         </div>
         
     </header>
     <header class = "footer">
-        <div class="container footer-container"></div>
+        <div class="container footer-container">
+            2022
+            <a href="https://github.com/pelageika" class="github nav-link">pelageya</a>
+        </div>
     </header>
 </body>
 </html
-=======
 
->>>>>>> 738bbc7755c910c1cb903bdbd6bc9b50b70cc1c7
+
+
