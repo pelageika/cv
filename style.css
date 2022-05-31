@@ -1,0 +1,264 @@
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1a1147;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+  background-color: #81b4e3;
+ 
+}
+
+.section-item a:hover {
+  color: #29234d;
+} 
+
+link {
+    display: none;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+    
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .section-item a {
+    color: #0bad19;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .section-item a:hover {
+    color: #210242;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 60px;
+  }
+  .nav-link {
+    transition: .3s;
+  }
+  .nav-link{
+    color: #29234d;
+  }
+  .nav-link{
+    font-size: 20px;
+    font-weight: 300;
+   text-decoration: none;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 50px;
+}
+  .section-profile {
+    border-bottom: 15px solid #afd0f0;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px 35px;
+    width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+  .section-profile-logo {
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    height: 550px;
+    object-fit: cover;
+    transition: .3s;
+    width: 550px;
+  }
+  .section-profile-title {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 565px;
+    width: 500px;
+}
+
+
+h1{
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.main-title {
+  color: #29234d;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  word-spacing: 3px;
+}
+* {
+  box-sizing: border-box;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+.section-subtitle {
+  color: #5d5a6b;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+.section-title {
+  color: #210242;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: block;
+  
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.section-item {
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+  position: relative;
+}
+.section-item:before {
+  border: 1px solid #5d5a6b;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 10px;
+}
+.section-item span {
+  color: #5d5a6b;
+}
+.section-item a {
+  color: #5d5a6b;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+.section {
+  
+  padding: 10px 10px 35px;
+  
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.section-item a {
+  color: #5d9cc0;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+.section {
+  border-bottom: 1px solid #3e68c2;
+  padding: 10px 10px 35px;
+  width: calc(100% - 20px);
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pre {
+  margin: 0;
+  padding: 0;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+code {
+  font-family: monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+.section-english {
+  border-bottom: 0;
+}
+.footer {
+  background-color: #81b4e3;
+  padding: 20px;
+}
+footer {
+  display: block;
+}
+
+
